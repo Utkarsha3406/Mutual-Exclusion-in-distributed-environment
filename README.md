@@ -43,6 +43,9 @@ The code takes two command-line arguments: the number of processes and the durat
 Running the Code:
 To run the code, you would execute it from the command line, providing the number of processes and the duration of the simulation as arguments. For example:
 
-python distributed_mutual_exclusion.py 5 30
+python distributed_mutual_exclusion.py 15 10
 
-This would simulate a system with 5 processes for 30 seconds.
+This would simulate a system with 15 processes for 10 seconds.
+
+![DOS project ss](https://github.com/Utkarsha3406/Mutual-Exclusion-in-distributed-environment/assets/104308777/478c52e5-a5fe-4346-993e-7967f8ad8c29)
+
