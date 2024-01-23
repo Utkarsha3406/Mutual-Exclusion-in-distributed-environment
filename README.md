@@ -4,10 +4,10 @@ The provided Python code implements a simple simulation of a distributed mutual 
 Mutual Exclusion in Distributed Environment:
 In a distributed system, mutual exclusion refers to the coordination of processes to ensure that only one process can access a critical section at a time. This is crucial to prevent conflicts, data corruption, and ensure the integrity of shared resources.
 
-Code Description:
+# Code Description:
 The code simulates a distributed environment with multiple processes that contend for access to a critical section. Each process runs as a separate thread and communicates with others using shared queues. The algorithm implemented here is a basic request-reply protocol.
 
-Process Class:
+# Process Class:
 
 The Process class represents a single process in the distributed system.
 It has methods for requesting and releasing the critical section (request_cs and release_cs), and a thread (handle_requests) to handle incoming requests from other processes.
@@ -40,7 +40,7 @@ The code takes two command-line arguments: the number of processes and the durat
 
 
 
-Running the Code:
+# Running the Code:
 To run the code, you would execute it from the command line, providing the number of processes and the duration of the simulation as arguments. For example:
 
 python distributed_mutual_exclusion.py 15 10
